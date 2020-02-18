@@ -1,23 +1,28 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway:100,300,600';
 *{
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Raleway',Arial, Helvetica, sans-serif;
 }
 html{
-    margin: 0px;
+   
     background-color: darkgrey;
 }
 body{
     width: 480px;
-    margin: 0;
+    margin: 0px;
 }
-.inner{
+.inner-title {
     width: 480px;
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-content: flex-start;
     padding: 4px;
-
+}
+.inner{
+    width: 480px;
+    margin: auto;
+    padding: 4px;
 }
 .header{
 		background-image: url('../../images/banner.jpg');
@@ -36,9 +41,17 @@ body{
 .nav{
     display: none;
 }
-.header-title, .header-text{
-    font-weight: 50;
+.header-title {
+    font-weight: 100;
+    font-size: 40px;
     
+}
+
+.header-text, p{
+    font-weight: 300;
+    color:darkgrey;
+    line-height: 25px; 
+    padding-bottom: 25px;   
 }
 .header-content{
     padding: 50px;
@@ -50,4 +63,38 @@ body{
     position: absolute;
     margin: 20px;
 
+}
+.wrapper{
+    background-color: #fff;
+    text-align: center;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button {
+    background-color: #5385c1;
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+    padding: 15px 40%;
+}
+.box-title{
+    color: #5385c1 ;
+    font-weight: 300;
+    font-size: 22px;
+}
+article{
+    padding-bottom: 40px;
+    border-bottom: 1px solid lightgray;
+}
+#two {
+    background-color: #5385c1;
+    text-align: center;
+}
+.box-person{
+    border:1px solid lightgray ;
+    
+    color: white;
 }
