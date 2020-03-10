@@ -2933,13 +2933,13 @@
 /* Banner */
 
 	#banner {
-			padding: 12em 0 10em 0;
-			background-image: url('../../images/banner.jpg');
-			background-size: cover;
-			background-position: top;
-			background-repeat: no-repeat;
-			text-align: center;
-			border-top: 0.5em solid #5385c1;
+		padding: 12em 0 10em 0;
+		background-image: url('../../images/banner.jpg');
+		background-size: cover;
+		background-position: top;
+		background-repeat: no-repeat;
+		text-align: center;
+		border-top: 0.5em solid #5385c1;
 	}
 
 		#banner h1 {
