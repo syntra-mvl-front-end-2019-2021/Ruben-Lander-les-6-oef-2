@@ -233,6 +233,10 @@ ul li:hover {
     border: none;
 }
 
+.bottom-buttons li {
+    background-color: #E5E5E5;
+}
+
 ul li.bigger {
     font-size: 1.35em;
     height: 50px;
@@ -248,9 +252,7 @@ ul.fit li {
     flex: 1;
 }
 
-.bottom-buttons li {
-    background-color: #E5E5E5;
-}
+
 
 .content-image img {
     float: left;
