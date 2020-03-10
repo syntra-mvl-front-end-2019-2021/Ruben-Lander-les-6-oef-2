@@ -1,0 +1,158 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway:100,300,600';
+*{
+    box-sizing: border-box;
+    font-family: 'Raleway',Arial, Helvetica, sans-serif;
+}
+html{
+   
+    background-color: darkgrey;
+}
+body{
+    width: 480px;
+    margin: 0px;
+}
+@media screen and(max-width:736px){
+
+}
+@media screen and(max-width:980px){
+
+}
+@media screen and(max-width:1280px){
+
+}
+@media screen and(max-width:1680px){
+
+}
+
+.inner-title {
+    width: 480px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    padding: 4px;
+}
+.inner{
+    width: 80%;
+    margin: auto;
+    padding: 4px;
+}
+.header{
+    background-image: url('../../images/banner.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+    border-top: 0.5em solid #5385c1;
+    color: white;
+
+}
+.nav-element{
+    padding: 4px;
+    color: white;
+}
+.nav{
+    display: none;
+}
+.header-title {
+    font-weight: 100;
+    font-size: 40px;
+    
+}
+
+.header-text, p{
+    font-weight: 300;
+    color:darkgrey;
+    line-height: 25px; 
+    padding-bottom: 25px;   
+}
+.header-content{
+    padding: 50px;
+}
+.logo-link{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin: 20px;
+
+}
+.wrapper{
+    background-color: #fff;
+    text-align: center;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button {
+    background-color: #5385c1;
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+    padding: 15px 40%;
+    width: 100%;
+}
+.box-title{
+    color: #5385c1 ;
+    font-weight: 300;
+    font-size: 22px;
+}
+#one article{
+    padding-bottom: 40px;
+    border-bottom: 1px solid lightgray;
+}
+#two {
+    background-color: #5385c1;
+    text-align: center;
+}
+.box-person{
+    border: 1px solid #bacee6 ;
+    padding: 48px 100px;
+    margin-bottom: 32px;
+    color: white;
+}
+.box-person img{
+    border-radius: 50%;
+}
+#two h3{
+    font-weight: 300;
+    color: white;
+}
+#two p{
+    color: #bacee6;
+}
+#two h2{
+    font-weight: 100;
+    color: white;
+    font-size: 30px;
+}
+#three .wrapper{
+    background-color: #fff;
+}
+#three h2{
+    font-weight: 100;
+    color: #5385c1;
+    font-size: 30px;
+}
+h3{
+    color:#5385c1;
+    font-weight: 300;
+    text-align: center;
+}
+#three footer{
+    padding-bottom: 50px;
+}
+
+.image img{ 
+    width: 100%;
+    height: auto;
+}
+.footer{
+    border-top: 1px solid lightgray;
+    text-decoration: none;
+    color: lightgray;
+    font-size: 15px;
+    height: 10%;
+}
+
